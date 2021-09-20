@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class LineTest {
 
     @Test
-    public void calculateDistance() {
+    public void calculateLength() {
         double answer = 5;
         int x1 = 0;
         int x2 = 3;
@@ -14,9 +14,8 @@ class LineTest {
         int y2 = 4;
 
         Line line = new Line(x1, x2, y1, y2);
-
-        double distance = line.calculateDistance();
-
+        double distance = line.calculateLength();
         assertEquals(answer, distance, 0.0001);
     }
+
 }

@@ -1,14 +1,13 @@
-# Cartesian Distance Library
+#  Line Length Library
 
 ## Problem Statement
-A library to calculate distance between 2 points in a cartesian system
+A library to calculate length of a line in a cartesian system
 
 ## Pre-Requisite
 1. JDK 11
-2. Gradle
+2. Gradle 6.9.1
 
 ## Running Test
-
 ```bash
 ./gradlew test
 ```
@@ -18,11 +17,9 @@ A library to calculate distance between 2 points in a cartesian system
 ./gradlew build
 ````
 This command will result a .jar file in
-
 ```/lib/build/libs/lib.jar```
 
 ## Importing the Library
-
 Place the .jar file in the ```/libs``` directory
 
 build.gradle
